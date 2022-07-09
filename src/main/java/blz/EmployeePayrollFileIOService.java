@@ -1,6 +1,5 @@
 package blz;
 
-
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -10,7 +9,6 @@ import java.util.List;
 
 public class EmployeePayrollFileIOService {
     public static String PAYROLL_FILE_NAME = "C:\\Users\\shard\\eclipse-workspace\\Advance java\\EmployeePayRoll_JDBC\\EmployeePayRoll_JDBC\\src\\payroll-file.txt";
-
     public void writeData(List<EmployeePayrollData> employeePayrollList) {
         StringBuffer empBuffer = new StringBuffer();
         employeePayrollList.forEach(employee -> {
